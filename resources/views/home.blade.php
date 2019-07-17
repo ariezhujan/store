@@ -6,7 +6,7 @@
     <div id="carousel-up" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner " role="listbox">
             <div class="item active">
-                <img src="image/oldcar.jpg" alt="oldcar">
+                <img src="{{URL::asset('image/oldcar.jpg')}}" alt="oldcar">
                 <div class="carousel-caption">
                     <h2>Porsche 356</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur ,<br>
@@ -14,7 +14,7 @@
                 </div>
             </div>
             <div class="item">
-                <img src="image/porche.jpg" alt="porche">
+                <img src="{{URL::asset('image/porche.jpg')}}" alt="porche">
                 <div class="carousel-caption">
                     <h2>Porche</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur ,<br>
@@ -22,7 +22,7 @@
                 </div>
             </div>
             <div class="item">
-                <img src="image/benz.jpg" alt="benz">
+                <img src="{{URL::asset('image/benz.jpg')}}" alt="benz">
                 <div class="carousel-caption">
                     <h2>Car</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur ,<br>
@@ -166,7 +166,7 @@
         <div class="row">
             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
                 <div class="txthover">
-                    <img src="image/car1.jpg" alt="car1">
+                    <img src="{{URL::asset('image/car1.jpg')}}" alt="car1">
                         <div class="txtcontent">
                             <div class="stars">
                                 <div class="glyphicon glyphicon-star"></div>
@@ -181,7 +181,7 @@
                                 <button>READ MORE</button><br>
                                 <div class="wishtxt">
                                     <p class="paragraph1"> Add to Wishlist <span class="glyphicon glyphicon-heart"></span> </p>
-                                    <p class="paragraph2">Compare <span class="icon"><img src="image/compicon.png" alt="compicon"></span></p>
+                                    <p class="paragraph2">Compare <span class="icon"><img src="{{URL::asset('image/compicon.png')}}" alt="compicon"></span></p>
                                 </div>
                             </div>
                             <div class="stars2">
@@ -194,7 +194,7 @@
             </div>
             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 ">
                 <div class="txthover">
-                    <img src="image/car2.jpg" alt="car2">
+                    <img src="{{URL::asset('image/car2.jpg')}}" alt="car2">
                         <div class="txtcontent">
                             <div class="stars">
                                 <div class="glyphicon glyphicon-star"></div>
@@ -209,7 +209,7 @@
                                 <button>READ MORE</button><br>
                                 <div class="wishtxt">
                                     <p class="paragraph1"> Add to Wishlist <span class="glyphicon glyphicon-heart"></span> </p>
-                                    <p class="paragraph2">Compare <span class="icon"><img src="image/compicon.png" alt="compicon"></span></p>
+                                    <p class="paragraph2">Compare <span class="icon"><img src="{{URL::asset('image/compicon.png')}}" alt="compicon"></span></p>
                                 </div>
                             </div>
                             <div class="stars2">
@@ -222,7 +222,7 @@
             </div>
             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
                 <div class="txthover">
-                    <img src="image/car3.jpg" alt="car3">
+                    <img src="{{URL::asset('image/car3.jpg')}}" alt="car3">
                         <div class="txtcontent">
                             <div class="stars">
                                 <div class="glyphicon glyphicon-star"></div>
@@ -237,7 +237,7 @@
                                 <button>READ MORE</button><br>
                                 <div class="wishtxt">
                                     <p class="paragraph1"> Add to Wishlist <span class="glyphicon glyphicon-heart"></span> </p>
-                                    <p class="paragraph2">Compare <span class="icon"><img src="image/compicon.png" alt="compicon"></span></p>
+                                    <p class="paragraph2">Compare <span class="icon"><img src="{{URL::asset('image/compicon.png')}}" alt="compicon"></span></p>
                                 </div>
                             </div>
                             <div class="stars2">
@@ -250,7 +250,7 @@
             </div>
             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
                 <div class="txthover">
-                    <img src="image/car4.jpg" alt="car4">
+                    <img src="{{URL::asset('image/car4.jpg')}}" alt="car4">
                         <div class="txtcontent">
                             <div class="stars">
                                 <div class="glyphicon glyphicon-star"></div>
@@ -265,7 +265,7 @@
                                 <button>READ MORE</button><br>
                                 <div class="wishtxt">
                                     <p class="paragraph1"> Add to Wishlist <span class="glyphicon glyphicon-heart"></span> </p>
-                                    <p class="paragraph2">Compare <span class="icon"><img src="image/compicon.png" alt="compicon"></span></p>
+                                    <p class="paragraph2">Compare <span class="icon"><img src="{{URL::asset('image/compicon.png')}}" alt="compicon"></span></p>
                                 </div>
                             </div>
                             <div class="stars2">
@@ -278,7 +278,7 @@
             </div>
             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
                 <div class="txthover">
-                    <img src="image/car5.jpg" alt="car5">
+                    <img src="{{URL::asset('image/car5.jpg')}}" alt="car5">
                         <div class="txtcontent">
                             <div class="stars">
                                 <div class="glyphicon glyphicon-star"></div>
@@ -293,7 +293,7 @@
                                 <button>READ MORE</button><br>
                                 <div class="wishtxt">
                                     <p class="paragraph1"> Add to Wishlist <span class="glyphicon glyphicon-heart"></span> </p>
-                                    <p class="paragraph2">Compare <span class="icon"><img src="image/compicon.png" alt="compicon"></span></p>
+                                    <p class="paragraph2">Compare <span class="icon"><img src="{{URL::asset('image/compicon.png')}}" alt="compicon"></span></p>
                                 </div>
                             </div>
                             <div class="stars2">
@@ -306,7 +306,7 @@
             </div>
             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
                 <div class="txthover">
-                    <img src="image/car6.jpg" alt="car6">
+                    <img src="{{URL::asset('image/car6.jpg" alt="car6')}}">
                         <div class="txtcontent">
                             <div class="stars">
                                 <div class="glyphicon glyphicon-star"></div>
@@ -321,7 +321,7 @@
                                 <button>READ MORE</button><br>
                                 <div class="wishtxt">
                                     <p class="paragraph1"> Add to Wishlist <span class="glyphicon glyphicon-heart"></span> </p>
-                                    <p class="paragraph2">Compare <span class="icon"><img src="image/compicon.png" alt="compicon"></span></p>
+                                    <p class="paragraph2">Compare <span class="icon"><img src="{{URL::asset('image/compicon.png')}}" alt="compicon"></span></p>
                                 </div>
                             </div>
                             <div class="stars2">
@@ -334,7 +334,7 @@
             </div>
             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
                 <div class="txthover">
-                    <img src="image/car7.jpg" alt="car7">
+                    <img src="{{URL::asset('image/car7.jpg')}}" alt="car7">
                         <div class="txtcontent">
                             <div class="stars">
                                 <div class="glyphicon glyphicon-star"></div>
@@ -349,7 +349,7 @@
                                 <button>READ MORE</button><br>
                                 <div class="wishtxt">
                                     <p class="paragraph1"> Add to Wishlist <span class="glyphicon glyphicon-heart"></span> </p>
-                                    <p class="paragraph2">Compare <span class="icon"><img src="image/compicon.png" alt="compicon"></span></p>
+                                    <p class="paragraph2">Compare <span class="icon"><img src="{{URL::asset('image/compicon.png')}}" alt="compicon"></span></p>
                                 </div>
                             </div>
                             <div class="stars2">
@@ -362,7 +362,7 @@
             </div>
             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
                 <div class="txthover">
-                    <img src="image/car8.jpg" alt="car8">
+                    <img src="{{URL::asset('image/car8.jpg')}}" alt="car8">
                         <div class="txtcontent">
                             <div class="stars">
                                 <div class="glyphicon glyphicon-star"></div>
@@ -377,7 +377,7 @@
                                 <button>READ MORE</button><br>
                                 <div class="wishtxt">
                                     <p class="paragraph1"> Add to Wishlist <span class="glyphicon glyphicon-heart"></span> </p>
-                                    <p class="paragraph2">Compare <span class="icon"><img src="image/compicon.png" alt="compicon"></span></p>
+                                    <p class="paragraph2">Compare <span class="icon"><img src="{{URL::asset('image/compicon.png')}}" alt="compicon"></span></p>
                                 </div>
                             </div>
                             <div class="stars2">
@@ -393,14 +393,14 @@
 <!-- _______________________________News Letter ____________________-->
     <div class="newslettercontent">
         <div class="leftside">
-            <img src="image/border.png" alt="border">
+            <img src="{{URL::asset('image/border.png')}}" alt="border">
             <h1>NEWSLETTER</h1>
             <p>Subscribe to the COLLECTIONCARS mailing list to <br>
                 receive updates on new arrivals, special offers <br>
                 and other discount information.</p>
         </div>
         <div class="rightside">
-            <img class="newsimage" src="image/newsletter.jpg" alt="newsletter">
+            <img class="newsimage" src="{{URL::asset('image/newsletter.jpg')}}" alt="newsletter">
             <input type="text" class="form-control" id="subemail" placeholder="EMAIL">
             <button>SUBSCRIBE</button>
         </div>

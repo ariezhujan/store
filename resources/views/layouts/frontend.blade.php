@@ -78,7 +78,7 @@
 <!-- ______________________________________________________Bottom Menu ______________________________-->
 	<div class="bottommenu">
 		<div class="bottomlogo">
-		<span class="dotlogo">&bullet;</span><img src="image/collectionlogo1.png" alt="logo1"><span class="dotlogo">&bullet;;</span>
+		<span class="dotlogo">&bullet;</span><img src="{{URL::asset('image/collectionlogo1.png')}}" alt="logo1"><span class="dotlogo">&bullet;;</span>
 		</div>
 		<ul class="nav nav-tabs bottomlinks">
 			<li role="presentation" ><a href="#/" role="button">ABOUT US</a></li>
@@ -107,10 +107,10 @@
 	</div>
 </div>
 
-<script type="text/javascript" src="source/bootstrap-3.3.6-dist/js/jquery.js"></script>
-<script type="text/javascript" src="source/js/isotope.js"></script>
-<script type="text/javascript" src="source/js/myscript.js"></script> 
-<script type="text/javascript" src="source/bootstrap-3.3.6-dist/js/jquery.1.11.js"></script>
-<script type="text/javascript" src="source/bootstrap-3.3.6-dist/js/bootstrap.js"></script>
+<script type="text/javascript" src="{{URL::asset('source/bootstrap-3.3.6-dist/js/jquery.js')}}"></script>
+<script type="text/javascript" src="{{URL::asset('source/js/isotope.js')}}"></script>
+<script type="text/javascript" src="{{URL::asset('source/js/myscript.js')}}"></script> 
+<script type="text/javascript" src="{{URL::asset('source/bootstrap-3.3.6-dist/js/jquery.1.11.js')}}"></script>
+<script type="text/javascript" src="{{URL::asset('source/bootstrap-3.3.6-dist/js/bootstrap.js')}}"></script>
 </body>
 </html>
